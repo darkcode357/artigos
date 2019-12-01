@@ -1,0 +1,48 @@
+####configuracao da documentacao
+# Project information
+site_name: 'portfolio'
+site_description: 'artigos e técnica escritos por darkcode'
+site_author: 'darkcode0x00 luizcorrea'
+site_url: 'https://darkcode357.github.io/artigos/'
+# Repository
+repo_name: 'darkcode357/artigos'
+repo_url: 'https://github.com/darkcode357/artigos'
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 darkcode0x00'
+# Configuration
+theme:
+  name: 'cyborg'
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/squidfunk'
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - admonition
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+nav:
+- Introduction: index.md
